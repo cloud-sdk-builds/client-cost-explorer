@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-cost-explorer`](https://www.npmjs.com/package/@aws-sdk/client-cost-explorer/v/3.1052.0).
+[`@aws-sdk/client-cost-explorer`](https://www.npmjs.com/package/@aws-sdk/client-cost-explorer/v/3.1053.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-cost-explorer - [https://cloud-sdk-builds.github.io/?sdk=client-cost-explorer](https://cloud-sdk-builds.github.io/?sdk=client-cost-explorer)
-- @aws-sdk/client-cost-explorer v3.1052.0 - [https://cloud-sdk-builds.github.io/?sdk=client-cost-explorer&version=3.1052.0](https://cloud-sdk-builds.github.io/?sdk=client-cost-explorer&version=3.1052.0)
+- @aws-sdk/client-cost-explorer v3.1053.0 - [https://cloud-sdk-builds.github.io/?sdk=client-cost-explorer&version=3.1053.0](https://cloud-sdk-builds.github.io/?sdk=client-cost-explorer&version=3.1053.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-explorer@3.1052.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-explorer@3.1053.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-s89Ot4iLUUd6AQXer3ehgqu48KQr0kPzg5zmkRJhkk1kQvoaB+aoN4ZwVKQ30WTL
+sha384-mZ4O0VJ5ijta24i5vwyFf/wNM5h2xyN7y5ZkU0+xh+0bpmqAvI7Lg2ZzRBkBQ5Da
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-cost-explorer": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-explorer@3.1052.0/index.min.mjs"
+            "@aws-sdk/client-cost-explorer": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-explorer@3.1053.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-explorer@3.1052.0/index.min.mjs": "sha384-s89Ot4iLUUd6AQXer3ehgqu48KQr0kPzg5zmkRJhkk1kQvoaB+aoN4ZwVKQ30WTL"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-explorer@3.1053.0/index.min.mjs": "sha384-mZ4O0VJ5ijta24i5vwyFf/wNM5h2xyN7y5ZkU0+xh+0bpmqAvI7Lg2ZzRBkBQ5Da"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-cost-explorer": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-explorer@3.1052.0/index.min.mjs"
+                        "@aws-sdk/client-cost-explorer": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-explorer@3.1053.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-explorer@3.1052.0/index.min.mjs": "sha384-s89Ot4iLUUd6AQXer3ehgqu48KQr0kPzg5zmkRJhkk1kQvoaB+aoN4ZwVKQ30WTL"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-explorer@3.1053.0/index.min.mjs": "sha384-mZ4O0VJ5ijta24i5vwyFf/wNM5h2xyN7y5ZkU0+xh+0bpmqAvI7Lg2ZzRBkBQ5Da"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1052.0`)
+* Always pin to a specific version (`@3.1053.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-cost-explorer/blob/refs/tags/3.1052.0/LICENSE
+https://github.com/cloud-sdk-builds/client-cost-explorer/blob/refs/tags/3.1053.0/LICENSE
 ```
 
 ---
